@@ -11,8 +11,12 @@ The COVID-19 pandemic is extremely detrimental to society and we need to all wor
 Our data is very high quality because it was collected at a hospital under supervision by physicians following Standard Operating Procedures (SOP). Our data is preprocessed and labeled with COVID-19 status (acquired from PCR testing), along with patient demographics (age, gender, medical history).
 
 ## Get Started
-We have provided 16 samples. The data is labeled with COVID-19 PCR test status (7 positive, 9 negative), along with patient demographics as can be found in labels.csv.
+We have provided 16 samples. The data is labeled with COVID-19 PCR test status (7 positive, 9 negative), along with patient demographics as can be found in 
+[original/labels.csv](/original/labels.csv)
  
+## Structure
+The data directory contains two different folders, one with the original cough audio recordings, and the other with the segmented versions of the coughs. The segmented coughs were created by identifying periods of relative silence in the recordings and separating coughs based on those silences. The segments which were not coughs or had too much background noise are removed.
+
 ## Collaboration
 We warmly welcome review of our data and code. We hope to create a community of researchers driven to use this data to create solutions for the pandemic.
 
