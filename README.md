@@ -12,7 +12,7 @@ Our vision is to develop a smartphone app that can be used by everyone in the wo
 ## Open Dataset
 Our data can be found in the [data/ folder](./data).
 
-The data directory contains two different folders, one with the original cough audio recordings, and the other with the segmented versions of the coughs. The segmented coughs were created by indintifying periods of relative silence in the recordings and seperating coughs based on those silences. The segments which were not coughs or had too much background noise are removed.
+The data directory contains two different folders, one with the original cough audio recordings, and the other with the segmented versions of the coughs. The segmented coughs were created by identifying periods of relative silence in the recordings and separating coughs based on those silences. The segments which were not coughs or had too much background noise are removed.
 
 ## Our Website
 https://virufy.org/
