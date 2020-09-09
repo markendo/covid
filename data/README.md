@@ -12,7 +12,7 @@ Our data is very high quality because it was collected at a hospital under super
 
 ## Get Started
 We have provided 16 samples. The data is labeled with COVID-19 PCR test status (7 positive, 9 negative), along with patient demographics as can be found in 
-[original/labels.csv](/original/labels.csv)
+[labels.csv](labels.csv)
  
 ## Structure
 The data directory contains two different folders, one with the original cough audio recordings, and the other with the segmented versions of the coughs. The segmented coughs were created by identifying periods of relative silence in the recordings and separating coughs based on those silences. The segments which were not coughs or had too much background noise are removed.
